@@ -1,4 +1,4 @@
-package br.com.zup.investimento;
+package br.com.zup.investimento.DTO;
 
 import org.hibernate.validator.constraints.br.CPF;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

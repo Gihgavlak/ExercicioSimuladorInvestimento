@@ -1,4 +1,4 @@
-package br.com.zup.investimento;
+package br.com.zup.investimento.DTO;
 
 public enum RiscoDTO {
     ALTO(0.025), MEDIO(0.015), BAIXO(0.005);
