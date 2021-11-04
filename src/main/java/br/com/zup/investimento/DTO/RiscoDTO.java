@@ -1,14 +1,14 @@
 package br.com.zup.investimento;
 
-public enum Risco {
+public enum RiscoDTO {
     ALTO(0.025), MEDIO(0.015), BAIXO(0.005);
 
     public double taxaDeRetorno;
 
-    Risco() {
+    RiscoDTO() {
     }
 
-    Risco(double valorRisco) {
+    RiscoDTO(double valorRisco) {
         this.taxaDeRetorno = valorRisco;
     }
 

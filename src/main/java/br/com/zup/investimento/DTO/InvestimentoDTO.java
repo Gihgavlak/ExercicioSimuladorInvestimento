@@ -14,13 +14,13 @@ public class InvestimentoDTO {
     private String cpf;
     private double valorInvestido;
     private int qtdMesesInvestidos;
-    private Risco risco;
+    private RiscoDTO risco;
 
     public InvestimentoDTO() {
 
     }
 
-    public InvestimentoDTO(String email, String nome, String cpf, double valorInvestido, int qtdMesesInvestidos, Risco risco) {
+    public InvestimentoDTO(String email, String nome, String cpf, double valorInvestido, int qtdMesesInvestidos, RiscoDTO risco) {
         this.email = email;
         this.nome = nome;
         this.cpf = cpf;
@@ -69,11 +69,11 @@ public class InvestimentoDTO {
         this.qtdMesesInvestidos = qtdMesesInvestidos;
     }
 
-    public Risco getRisco() {
+    public RiscoDTO getRisco() {
         return risco;
     }
 
-    public void setRisco(Risco risco) {
+    public void setRisco(RiscoDTO risco) {
         this.risco = risco;
     }
 }
